@@ -1,0 +1,39 @@
+{
+  "languaje": "en",
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "home": {
+    "box_4": {
+      "title": "Hello! I'm Pablo!",
+      "subtitle": "Full Stack Developer",
+      "description_1": "Specializing in JavaScript, Python, and Java technologies.",
+      "description_2": "I have testing capabilities with a focus on delivering solutions, applying best practices.",
+      "description_3": "Always determined to find effective solutions, I am adaptable and willing to face any challenge, even in complex situations."
+    },
+    "box_6": {
+      "title": "Language:",
+      "title_2": "Theme:",
+      "options": {
+        "option_1": "Spanish",
+        "option_2": "English"
+      }
+    },
+    "box_8": {
+      "title": "Technologies",
+      "options": [
+        {"value": "Javascript"},
+        {"value": "React"},
+        {"value": "Vue"},
+        {"value": "Node"},
+        {"value": "Python"},
+        {"value": "Django"},
+        {"value": "Java"},
+        {"value": "Spring"},
+        {"value": "Docker"},
+        {"value": "SQL"}
+      ]
+    }
+  }
+}

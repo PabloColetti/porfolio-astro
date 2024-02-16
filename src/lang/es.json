@@ -1,0 +1,39 @@
+{
+  "languaje": "es",
+  "theme": {
+    "dark": "Oscuro",
+    "light": "Claro"
+  },
+  "home": {
+    "box_4": {
+      "title": "Hola! Soy Pablo!",
+      "subtitle": "Desarrollador Full Stack",
+      "description_1": "Especializado en tecnologías JavaScript, Python y Java.",
+      "description_2": "Dispongo capacidades en testing, con enfoque en la entrega de soluciones, aplicando las mejores prácticas.",
+      "description_3": "Siempre determinado por encontrar soluciones efectivas, soy adaptable y estoy dispuesto a enfrentar cualquier desafío, incluso en situaciones complejas."
+    },
+    "box_6": {
+      "title": "Lenguaje",
+      "title_2": "Modo",
+      "options": {
+        "option_1": "Español",
+        "option_2": "Ingles"
+      }
+    },
+    "box_8": {
+      "title": "Tecnologías",
+      "options": [
+        {"value": "Javascript"},
+        {"value": "React"},
+        {"value": "Vue"},
+        {"value": "Node"},
+        {"value": "Python"},
+        {"value": "Django"},
+        {"value": "Java"},
+        {"value": "Spring"},
+        {"value": "Docker"},
+        {"value": "SQL"}
+      ]
+    }
+  }
+}
