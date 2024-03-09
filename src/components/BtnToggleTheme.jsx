@@ -21,16 +21,8 @@ export default function BtnToggleTheme({ textTheme }) {
   }
 
   return (
-    <>
-      <button
-        class="bg-purple-500 text-white p-2 rounded-md text-center
-        border border-transparent
-        hover:bg-purple-600 hover:border hover:border-white
-        min-w-[80px]"
-        onClick={toggleTheme}
-      >
-        {theme === "dark" ? textTheme.dark : textTheme.light}
-      </button>
-    </>
+    <button onClick={toggleTheme} class="btn-primary">
+      {theme === "dark" ? textTheme.dark : textTheme.light}
+    </button>
   );
 }

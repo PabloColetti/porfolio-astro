@@ -10,9 +10,8 @@ const data = await fetchLang(lang);
 
 <div
   class="grid w-full max-w-[1080px] h-full md:h-[720px]
-  p-2
-  gap-2
-  lg:gap-4
+  p-2 gap-2
+  lg:gap-6
   grid-cols-2 grid-rows-8
   sm:grid-cols-2 sm:grid-rows-8
   md:grid-cols-3 md:grid-rows-5
@@ -23,9 +22,7 @@ const data = await fetchLang(lang);
   <section class="box-card col-span-1 row-span-2 order-1">Caja 1</section>
 
   <!-- Caja 2 -->
-  <section class="box-card col-span-1 row-span-1 order-2">
-    Caja 2
-  </section>
+  <section class="box-card col-span-1 row-span-1 order-2">Caja 2</section>
 
   <!-- Caja 3 -->
   <section class="box-card col-span-1 row-span-1 order-3">Caja 3</section>
@@ -33,9 +30,7 @@ const data = await fetchLang(lang);
   <!-- Caja 4 -->
   <section class="box-card col-span-2 row-span-2 order-4">
     <div class="flex flex-col h-full w-full">
-      <h1 class="text-6xl">
-        {data?.home.box_4.title}
-      </h1>
+      <h1 class="text-6xl">{data?.home.box_4.title}</h1>
       <div class="pl-1">
         <p class="text-xl my-6">{data?.home.box_4.subtitle}</p>
         <p class="text-xl">{data?.home.box_4.description_1}</p>
@@ -101,18 +96,21 @@ const data = await fetchLang(lang);
   .box-card {
     @apply p-6
     rounded-xl
-    shadow-xl
-    border
-    bg-[#7027a16b];
+    shadow-2xl
+    border-none
+    neon-stone
+    dark:neon-cyan
+    bg-light
+    dark:bg-dark;
   }
 
-  .bg-medias {
+  /* .bg-medias {
     @apply bg-violet-300
-  sm:bg-red-500
-  md:bg-green-500
-  lg:bg-teal-400
-  xl:bg-orange-500
-  2xl:bg-yellow-500
-  !bg-transparent;
-  }
+    sm:bg-red-500
+    md:bg-green-500
+    lg:bg-teal-400
+    xl:bg-orange-500
+    2xl:bg-yellow-500
+    !bg-transparent;
+  } */
 </style>
